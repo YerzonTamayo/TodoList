@@ -1,0 +1,139 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #EBECEC;
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+h1{
+    width: 1000px;
+    
+}
+hr{
+    size: 100%;
+    
+    background-color: #BFC1C1;
+}
+.contenTareas-estados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+
+    .estados{
+        width: 20%;
+        #total-text{
+            font-size: 20px;
+        }
+        #total{
+            font-size: 20px;
+        }
+        #realizadas-text{
+            font-size: 20px;
+        }
+        #realizadas{
+            font-size: 20px;
+        }
+        
+    }    
+    .tareas{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color:  #EBECEC;
+        border-radius: 5px;
+        h3{
+            text-align: center;
+        }
+
+        #btnEliminar{
+            border-radius: 5px;
+            background-color: #e70000;
+            border-color: #e70000;
+            color: #BFC1C1;
+        }
+    }
+
+
+}
+.ingresoData{
+    
+    width: 100%;
+    .input-data{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+        width: 100%;
+        #txtIngreso{
+            width: 60%;
+            height: 40px;
+            border-radius: 5px;
+          
+        }
+        #btn-Agregar{
+            width: 15%;
+            height: 40px;
+            border-radius: 5px;
+            background-color: #1A7742;
+            border-color: #1A7742;
+            color: #BFC1C1;
+            font-size: 15px;
+            font-weight: bold;
+            
+        }
+    }
+    p{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+}
+
+#listaTareas{
+    display: flex;
+    flex-direction: column;
+
+}
+
+table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
+
+#identificador{
+    width: 100px;
+}
+#nombre{
+    width: 350px;
+}
+#accion{
+    width: 150px;
+    text-align: center;
+}
+
+
+
